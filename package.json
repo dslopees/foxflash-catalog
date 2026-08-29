@@ -1,0 +1,14 @@
+{
+  "name": "foxflash-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/index.jsx --bundle --minify --outfile=docs/bundle.js --loader:.jsx=jsx"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "lucide-react": "^1.37.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
